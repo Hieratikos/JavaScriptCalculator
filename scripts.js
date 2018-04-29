@@ -37,8 +37,13 @@ $(document).ready(function () {
     }
     function getTotal() {
         totalValue = expression.join("");
-        //eval() evaluates a formula in the form of an string and returns a number. why bother with datatypes at all?
-        $("#display").html(eval(totalValue));
+        //eval() evaluates a formula in the form of an string and returns a number.
+        $("#display").html(precisionRound(eval(totalValue), 2));
+    }
+    //rounds the number to the number of precision decimal places
+    function precisionRound(number, precision) {
+        var factor = Math.pow(10, precision);
+        return Math.round(number * factor) / factor;
     }
     //when clicking on an anchor tag, run this function
     $("a").click(function () {

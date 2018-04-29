@@ -1,0 +1,78 @@
+@import "templateProjectPageHeader";
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background-color: $HEATWAVE;
+    line-height: 1.5;
+    font-family: $fontBody;
+}
+#calcOutput{
+    background-color: $TROPICALPINK;
+    width: 400px;
+    height: 100px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: right;
+    border: 10px double $PARADISE;
+    box-shadow: 10px 10px 5px 0px rgba(53,28,77,0.75);
+}
+#calculator{
+    background-color: $PARADISE;
+    width:400px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px 0px rgba(53,28,77,0.75);
+}
+#display{
+    padding-right: 30px;
+    font-size: 40px;
+    color: $NIGHTFALL;
+}
+a{
+    margin: 5px;
+    width: 70px;
+    height:70px;
+    text-decoration: none;
+}
+.bigButton{
+    width:40%;
+}
+.text-center{
+    text-align: center;
+    color:#FF7E5F;
+}
+.regButton{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color:$NIGHTFALL;
+    background-color: $TROPICALPINK;
+    box-shadow: 0 2px 4px $NIGHTFALL;
+}
+.regButton:hover{
+    color: $TROPICALPINK;
+    background-color: $NIGHTFALL;
+    text-decoration: none;
+}
+.red{
+    background-color: #FF0000;
+}
