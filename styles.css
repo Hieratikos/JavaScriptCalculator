@@ -352,7 +352,8 @@ template {
 html, body {
   background-color: #FF7E5F;
   line-height: 1.5;
-  font-family: "Montserrat Alternates", sans-serif; }
+  font-family: "Montserrat Alternates", sans-serif;
+  }
 
 #calcOutput {
   background-color: #F5AB99;
